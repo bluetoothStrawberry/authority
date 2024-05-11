@@ -3,5 +3,5 @@
 ```
 10.129.229.56
 ```
-[scans](scans)
+[scans](scans.md)
 
