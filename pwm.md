@@ -16,7 +16,9 @@ Now, we know exactly which version of PWN we're running and there's no exploit a
 Awesome,  we've made progress.. and now how do we decrypt it ? 
 
  I found this two resources online that were useful
+ 
 https://www.bengrewell.com/cracking-ansible-vault-secrets-with-hashcat/
+
 https://ppn.snovvcrash.rocks/pentest/infrastructure/devops/ansible
 
 We extracted the vaults blob containing the encrypted password and cracked the secret AES key using john.
