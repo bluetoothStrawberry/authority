@@ -1,10 +1,10 @@
 ```sh
-smbclient -U 'user'%'' -N -L  //authority.htb.corp
+smbclient -U 'user'%'' -N -L  //authority.authority.htb
 ```
 ![](images/shares.png)
 
 ```sh
-smbclient -U 'user'%'' -N //authority.htb.corp/Development
+smbclient -U 'user'%'' -N //authority.authority.htb/Development
 ```
 
 ![](images/pwm.png)
