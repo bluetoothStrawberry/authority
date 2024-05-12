@@ -19,6 +19,5 @@ Downloading everything just to be safe
 smbget --recursive -U 'user'%'' -v smb://authority.htb.corp/Development 
 ```
 
-Nice, indeed we were able to compromise the first account svc_ldap using the loot we've
-found!
+Nice, indeed we were able to compromise the first account svc_ldap using the loot we've found!
 

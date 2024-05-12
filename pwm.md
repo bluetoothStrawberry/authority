@@ -61,7 +61,7 @@ However, now we have access to pwm admins interface. Let's see what we can do
 
 ![](images/sensitivy.png)
 
-We download the xml file and found a mention to  user svc_ldap and a encrypted password.
+We downloaded the xml file and found a mention to  user svc_ldap and an encrypted password.
 
 ![](images/svc_ldap.png)
 

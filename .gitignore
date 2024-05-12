@@ -3,3 +3,6 @@ tools/*
 scans/*
 loot/*
 flags/*
+bloodhound/*
+web/*
+pub/*

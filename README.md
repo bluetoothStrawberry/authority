@@ -41,5 +41,15 @@ We found a few ansible playbooks. Including pwm which had the encrypted AES256 p
 >   
 >  After that we're able  to compromise the ldap proxy user svc_ldap by changing some configurations parameters of the PWM service.  
 
+[bloodhound](bloodhound.md)
 
+We are able to access the DC using our svc_ldap. 
 
+[dc](dc.md)
+
+We got a clue on how to  privesc. But it has something to due with ADCS.  
+I'm gonna need to study a bit how it works before going back to the box.
+
+[LAB](LAB.md)
+Found a few resources that teach how ADCS exploitation works, including a full 
+THM room  that explain the basics step-by-step. 
