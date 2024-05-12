@@ -9,7 +9,7 @@ Now that we have a general direction. The next question is.. where is the next c
 https://github.com/pwm-project/pwm
 ![](images/tasks.png)
 
-Now, we know exactly which version of PWN we're running. and there's no exploit available  in the wild for pwm v2.03
+Now, we know exactly which version of PWN we're running and there's no exploit available  in the wild for pwm v2.03
 
 ![](images/secrets.png)
 
@@ -63,7 +63,7 @@ We download the xml file and found a mention to  user svc_ldap and a encrypted p
 
 ![](images/svc_ldap.png)
 
-Good news svc_ldap is a domain user! we getting closer to our first objective!
+Good news svc_ldap is a domain user! we're getting closer to our first objective!
 
 ![](images/goodnews.png)
 
