@@ -1,16 +1,24 @@
+I was a bit confused by a few results  I got and had to run this step twice.
+
 ```sh
+dig any authority.htb @10.129.229.56
+```
+![](images/dns0.png)
+```
 dig any htb.corp @10.129.229.56
 ```
-![](images/dns.png)
+![](images/dns1.png)
+
+```
+authority.htb.           600    IN      A       10.129.229.56
+authority.authority.htb. 3600   IN      A       10.129.229.56
+htb.corp.               600     IN      A       10.129.229.56
+```
 
 ---
 
+
 **Configuring DNS Resolution For Engagement**
-
-10.129.229.56 htb.corp.  
-10.129.229.56 authority.authority.htb. authority  
-
-- /etc/hosts
 
 ![](images/hosts.png)
 
@@ -20,17 +28,8 @@ We don't wanna NetworkManager resetting our configs right?
 ```sh
 sudo systemctl stop NetworkManager
 ```
-```sh
-sudo rm -f /etc/resolv.conf
-```
-```
-search htp.corp
-nameserver 10.129.229.56
-nameserver 1.1.1.1
-```
-- /etc/resolv.conf
-
 ![](images/resolv.png)
+
 
 This might be needed if you don't want systemd to automatically load NetworkManager and overwrite your settings.
 ```sh
@@ -40,6 +39,16 @@ sudo chattr +i /etc/resolv.conf
 
 ---
 
-**Running a few dns lookups**
+**Running a few tests **
 
-![](images/resolution.png)
+```
+dig ns authority.htb
+```
+
+![](images/digns.png)
+
+```
+nslookup authority
+```
+
+![](images/nslookup.png)
