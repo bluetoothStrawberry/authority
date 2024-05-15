@@ -1,5 +1,5 @@
-# Nmap 7.94SVN scan initiated Sat May 11 20:41:35 2024 as: nmap -Pn -n -sU -p123 --script=ntp-info.nse -oN scans/ntp.txt 10.129.229.56
-Nmap scan report for 10.129.229.56
+# Nmap 7.94SVN scan initiated Sat May 11 20:41:35 2024 as: nmap -Pn -n -sU -p123 --script=ntp-info.nse -oN scans/ntp.txt 10.129.12.250
+Nmap scan report for 10.129.12.250
 Host is up (0.22s latency).
 
 PORT    STATE SERVICE

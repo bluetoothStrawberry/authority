@@ -6,3 +6,4 @@ flags/*
 bloodhound/*
 web/*
 pub/*
+privesc/*

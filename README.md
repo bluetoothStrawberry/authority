@@ -50,6 +50,7 @@ We are able to access the DC using our svc_ldap.
 We got a clue on how to  privesc. But it has something to due with ADCS.  
 I'm gonna need to study a bit how it works before going back to the box.
 
-[LAB](LAB.md)
+[LAB](LAB.md)  
+
 Found a few resources that teach how ADCS exploitation works, including a full 
 THM room  that explain the basics step-by-step. 

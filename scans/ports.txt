@@ -1,5 +1,5 @@
-# Nmap 7.94SVN scan initiated Sat May 11 10:50:17 2024 as: nmap -Pn -n -sS --min-rate=1000 -p- -oN scans/ports.txt 10.129.229.56
-Nmap scan report for 10.129.229.56
+# Nmap 7.94SVN scan initiated Sat May 11 10:50:17 2024 as: nmap -Pn -n -sS --min-rate=1000 -p- -oN scans/ports.txt 10.129.12.250
+Nmap scan report for 10.129.12.250
 Host is up (0.22s latency).
 Not shown: 65506 closed tcp ports (reset)
 PORT      STATE SERVICE

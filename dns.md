@@ -1,18 +1,18 @@
 I was a bit confused by a few results  I got and had to run this step twice.
 
 ```sh
-dig any authority.htb @10.129.229.56
+dig any authority.htb @10.129.12.250
 ```
 ![](images/dns0.png)
 ```
-dig any htb.corp @10.129.229.56
+dig any htb.corp @10.129.12.250
 ```
 ![](images/dns1.png)
 
 ```
-authority.htb.           600    IN      A       10.129.229.56
-authority.authority.htb. 3600   IN      A       10.129.229.56
-htb.corp.               600     IN      A       10.129.229.56
+authority.htb.           600    IN      A       10.129.12.250
+authority.authority.htb. 3600   IN      A       10.129.12.250
+htb.corp.               600     IN      A       10.129.12.250
 ```
 
 ---
