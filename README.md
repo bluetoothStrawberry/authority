@@ -9,6 +9,9 @@ Alternative DNS: htb.corp.
 IIS 10.0 on port 80.  
 PWM v2.0.3 is running on 8443  
 
+![](images/version0.png)
+![](images/version1.png)
+
 [dns](dns.md)
 
 Confirmed domain and FQDN  
@@ -16,7 +19,6 @@ Added target as our dns resolver.
 
 ![](images/resolv.png)
 
----
 
 [ntp](ntp.md)
 
@@ -25,7 +27,7 @@ Fixed time skew to avoid problems with kerberos.
 
 ![](images/time.png)
 
----
+
 
 > First Objective: Account compromise  
 > 
@@ -40,7 +42,7 @@ We have access on the Development share that could contain sensitive info.
 
 We found a few ansible playbooks. Including pwm which had the encrypted AES256 password for the PWM's administration panel.
 
----
+
 
 [pwm](pwm.md)
 
@@ -52,7 +54,7 @@ We found a few ansible playbooks. Including pwm which had the encrypted AES256 p
 
 ![](images/valid.png)
 
----
+
 
 [bloodhound](bloodhound.md)
 
@@ -60,9 +62,9 @@ We are able to access the DC using our svc_ldap.
 
 ![](images/winrm.png)
 
----
 
-> Second Objective: Find Privilege Escalation Path
+
+> Second Objective: Find a Privilege Escalation Path
 > 
 > Here we  want to user the account we've compromise to find a path to become system or domain admin. 
 
@@ -74,7 +76,7 @@ I'm gonna need to study a bit how it works before going back to the box.
 
 ![](images/direction.png)
 
----
+
 
 [LAB](LAB.md)  
 
@@ -83,7 +85,7 @@ THM room  that explain the basics step-by-step.
 
 ![](images/vulnerable.png)
 
----
+
 
 > Third  Objective:  Privilege Escalation
 > 
