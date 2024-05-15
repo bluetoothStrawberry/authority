@@ -1,6 +1,10 @@
 ![](images/banner.png)
 
 
+You can download the pdf containing the full walkthrough from: [report](authority_report.pdf)
+
+#### Summary
+
 [scans](scans.md)
 
 Domain name:  authority.htb  
@@ -99,3 +103,7 @@ We were able to use what we've learnt from THM to privesc in the box. It was har
 ![](images/system.png)
 
 That's all folks! happy hacking ❤️
+
+
+
+
